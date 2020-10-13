@@ -93,4 +93,16 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+    
+    /**
+     * Atardeciendo.
+     */
+    public void atardecer()
+    {
+       if (wall != null)   // only if it's painted already...
+        {
+            sun.moveVertical(80);
+            sun.slowMoveVertical(150);
+        }
+    }
 }
