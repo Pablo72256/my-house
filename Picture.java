@@ -105,9 +105,9 @@ public class Picture
             sun.moveVertical(80);
             sun.slowMoveVertical(150);
             persona = new Person();
-            persona.makeVisible();
             persona.moveVertical(40);
             persona.moveHorizontal(-300);
+            persona.makeVisible();
             persona.slowMoveHorizontal(300);
             
         }
